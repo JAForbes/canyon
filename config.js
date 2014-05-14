@@ -17,10 +17,5 @@ config = {
 	css: { 
 			backgroundColor: '#AABBDD',
 			color: 'white',
-	},
-	options: {
-		//automatically prettify code <false or {urlArgs} >
-		//see https://code.google.com/p/google-code-prettify/wiki/GettingStarted
-		prettify: { lang: 'javascript', skin: 'sunburst' }
 	}
 }
