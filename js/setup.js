@@ -31,7 +31,7 @@
 					[
 						p({},config.description.join('</p><p>')),
 						a({href:'https://twitter.com/'+config.twitter},
-							img({class:'icon', src:'img/tumblr_white.png'})
+							img({class:'icon', src:'img/twitter_white.png'})
 						),
 						a({href:'https://canyongames.tumblr.com/'+config.twitter},
 							img({class:'icon', src:'img/tumblr_white.png'})
