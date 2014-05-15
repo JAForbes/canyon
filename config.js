@@ -19,3 +19,25 @@ config = {
 			color: 'white',
 	}
 }
+
+exampleConfig = {
+	heading: 'Example',
+	tumblr: 'fkyeahalberteinstein',
+	twitter: 'einsteinquotes',
+	profile: 'http://www.brogilbert.org/face_god/face_einstein.JPG',
+	description: [
+		'Dead physicist.',
+		'Smart guy.',
+		'But Dead.'
+	],
+	/*
+		Links other than twitter,tumblr ...whatever you want.
+	*/
+	otherHTML: [
+		
+	],
+	css: { 
+		backgroundColor: 'red',
+		color: 'white',
+	}	
+}

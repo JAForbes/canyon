@@ -33,6 +33,9 @@ body{
 .blog img{
 	max-width: 50vw;
 }
+.bloghidden{
+	display: none;
+}
 .tumblr_posts{
 	padding:10px;
 }

@@ -17,6 +17,20 @@
 		<script src="http://canyongames.tumblr.com/js"></script>
 		<script>$('code').parents('pre').addClass('prettyprint')</script>
 	</div>
+	
+		<!--Delete this, this is just for example purposes-->
+	<div class="blog bloghidden" style='display:none;'>
+		<script src="http://fkyeahalberteinstein.tumblr.com/js"></script>
+		<script>$('code').parents('pre').addClass('prettyprint')</script>
+	</div>
+
+
 	<script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?skin=sunburst"></script>
 	</body>
+	<script>
+	if(/example/.test(window.location.search)){
+		$('.blog').hide()
+		$('.bloghidden').show()
+	}
+	</script>
 </html>

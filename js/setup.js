@@ -1,3 +1,7 @@
+if(/example/.test(window.location.search)){
+	config = exampleConfig	
+}
+
 (function(config){
 	
 	function tag(tag){
